@@ -36,16 +36,16 @@ Nutrinxt allows users to:
 
 ### Steps
 
-# 1. Clone the repository
+1. Clone the repository
 `git clone https://github.com/dhanalabhe/Nutrinxt.git`
 
-# 2. Navigate to the project directory
+2. Navigate to the project directory
 `cd Nutrinxt`
 
-# 3. Build the project
+3. Build the project
 `mvn clean install`
 
-# 4. Run the application
+4. Run the application
 `mvn javafx:run`
 
 ## 🔐 Firebase Configuration
@@ -62,16 +62,16 @@ Make sure it’s listed in your `.gitignore` file.
 
 Ensure your `.gitignore` excludes all sensitive and build files such as:
 
-target/
+`target/
 *.json # Firebase keys
 .idea/
-*.log
+*.log`
 
 ---
 
 ## 🧩 Project Structure
 
-Nutrinxt/
+`Nutrinxt/
 ├── src/
 │ ├── main/
 │ │ ├── java/
@@ -85,7 +85,7 @@ Nutrinxt/
 │ │ └── images/
 ├── target/
 ├── pom.xml
-└── README.md
+└── README.md`
 
 
 ---
